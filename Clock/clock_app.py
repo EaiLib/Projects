@@ -10,9 +10,9 @@ class Clock_App:
             root (Tk): The Tkinter root window.
         """
         self.root = root
-        self.root.title("")
+        self.root.title("") #An empty string, meaning no title will be displayed in the window.
         self.root.geometry("400x250")
-        self.root.configure(bg="black", border=4)
+        self.root.configure(bg="black")
         self.root.resizable(False, False)
 
         self.clock_label = Label(
